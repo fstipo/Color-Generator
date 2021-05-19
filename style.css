@@ -16,11 +16,83 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #F5971A;
+    color: #311902;
     font-family: 'Raleway', sans-serif;
 }
 
 .container {
     background-color: #6EDCF5;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     padding: 2rem;
+    width: 90%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+.color__box {
+
+    height: 6rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.8rem;
+}
+
+.code {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f7eee4;
+    font-size: 1.8rem;
+}
+
+
+.range {
+    width: 100%;
+    background-color: #fff;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
+
+}
+
+.box {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 0.2rem;
+    border-right: 2px solid #ddd;
+}
+
+.g {
+    background-color: green;
+}
+
+.b {
+    background-color: blue;
+
+}
+
+input {
+    width: 100%;
 }
